@@ -16,9 +16,9 @@ public class ListTest01 {
         nomes2.add("Antonio");
         nomes2.add("Carai");
 
-        for (int i = 0; i < nomes2.size(); i++){
-            if (!nomes.contains(nomes2.get(i))){
-                nomes.add(nomes2.get(i));
+        for (String nome : nomes2) {
+            if (!nomes.contains(nome)) {
+                nomes.add(nome);
             }
         }
 
