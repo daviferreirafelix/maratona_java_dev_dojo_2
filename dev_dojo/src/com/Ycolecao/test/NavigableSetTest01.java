@@ -38,6 +38,7 @@ public class NavigableSetTest01 {
         System.out.println("------------------------------");
         Manga ft = new Manga(34L, "Fairy Tail", 21L);
 
+        // Ordenações:
         // lower <
         // higher >
         // floor <=
