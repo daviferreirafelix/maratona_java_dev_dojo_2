@@ -16,11 +16,12 @@ class PriceComparator implements Comparator<Manga>{
 
 public class NavigableSetTest01 {
     public static void main(String[] args) {
+    	// INFORMAÇÕES IMPORTANTES SOBRE O TREESET
         // o TreeSet só pode ser usado em classes que possuem ou o Comparable ou o Comparator
         // o TreeSet faz uso do método compareTo ou compare da classe escolhida para ordenar
         //automaticamente os objetos alocados
         // o TreeSet não faz uso do método equals, e sim do compareTo ou compare da prórpia classe
-        //escolhida, portanto é necessário implementar ao menos um compare a classe ao usá-lo
+        //escolhida, portanto é necessário implementar ao menos um compare à classe ao usá-lo
 
         NavigableSet<Manga> mangas = new TreeSet<>(new PriceComparator());
 
@@ -38,6 +39,7 @@ public class NavigableSetTest01 {
         System.out.println("------------------------------");
         Manga ft = new Manga(34L, "Fairy Tail", 21L);
 
+        // INFORMAÇÕES IMPORTANTES SOBRE A ORDENAÇÃO DOS DADOS DENTRO DO TREESET
         // Ordenações:
         // lower <
         // higher >
