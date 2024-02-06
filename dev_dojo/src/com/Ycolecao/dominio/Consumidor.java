@@ -8,7 +8,7 @@ public class Consumidor {
     private final String nome;
 
     public Consumidor(String nome){
-        // retorna um valor auto-gerado
+        		  // retorna um valor auto-gerado
         this.id = ThreadLocalRandom.current().nextLong(0, 100_000);
         this.nome = nome;
     }
