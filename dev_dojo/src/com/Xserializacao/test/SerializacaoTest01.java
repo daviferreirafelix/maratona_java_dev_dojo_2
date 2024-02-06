@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 
 public class SerializacaoTest01 {
     public static void main(String[] args) {
-        Aluno aluno = new Aluno(123, "Ze bct", "abc");
+        Aluno aluno = new Aluno(123, "Ze", "abc");
         //serializar(aluno);
         deserializar();
     }
