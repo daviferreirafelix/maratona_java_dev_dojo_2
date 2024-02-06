@@ -12,7 +12,7 @@ public class QueueTest01 {
 		// INFORMAÇÃO IMPORTANTE
 		// a queue, assim como o Map, não aceita elementos que não sejam de uma classe Comparable
 		
-												//Definindo a prioridade de ordenação pelo Comparator
+				      //Definindo a prioridade de ordenação da fila pelo Comparator
 		Queue<Manga> mangas = new PriorityQueue<>(new MangaComparatorById());
 		
 		Manga manga = new Manga(3L, "One Piece", 26L, 2);
