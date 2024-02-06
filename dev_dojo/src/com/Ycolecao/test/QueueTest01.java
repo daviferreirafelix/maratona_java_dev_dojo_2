@@ -1,4 +1,4 @@
-package com.Ycolecao;
+package com.Ycolecao.test;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
